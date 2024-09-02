@@ -1,0 +1,291 @@
+*{
+  border: 0px;
+  outline: 0px;
+  margin: 0px;
+}
+body{
+  background-image: url("./src/assets/images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+Header{
+  background-color: black;
+  width: 100%;
+  height: 4rem;
+  font-family: "Teko", sans-serif;
+  margin-bottom: 30px;
+}
+Header h1{
+  margin-left: 20px;
+  padding-top: 10px;
+  color: white;
+  float: left;
+}
+Header img{
+  margin-left: 100px;
+  width: 70px;
+  margin-top: 10px;
+  float: left;
+}
+Header .vertical-line{
+  width: 1px;
+  height: 70%;
+  background-color: white;
+  float: left;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+Footer{
+  color: white;
+  background-color: black;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  font-family: "Teko", sans-serif;
+  line-height: 2.5rem;
+  margin-top: 30px;
+}
+.base{
+  width: 820px;
+  background-color: #0A0A0A;
+  margin: auto;
+  border: 20px solid #0A0A0A;
+  border-radius: 10px;
+}
+.div-container{
+  width: 800px;
+  height: 250px;
+  display: grid;
+  grid-template-rows: 50px 200px;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #494949;
+  background-color: #494949;
+}
+.div-header{
+  background-color: #494949;
+  height: 100%;
+  line-height: 50px;
+  font-size: 2rem;
+}
+.div-content{
+  background-color: white;
+  background-image: url("./src/assets/images/div-bg.png");
+  background-size: cover;
+  background-color: black;
+  height: 100%;
+}
+.first-container{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-top: 10px;
+  height: 80%;
+  width: 100%;
+}
+.form-container{
+  height: 100%;
+  width: 30%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+form input{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: black;
+  width: 60px;
+}
+form button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: black;
+}
+.count-down{
+  text-align: center;
+}
+.count-down p{
+  font-size: 1.8rem;
+}
+.current-container{
+  height: 100%;
+  width: 30%;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  text-align: center;
+}
+.current-container div{
+  font-size: 2rem;
+  line-height: 225px;
+  display: inline-block;
+}
+.battery-icon{
+  width: 70px;
+}
+.grid-planner{
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+.planner-dropdown select{
+  display: flex;
+  float: right;
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  background-color: #0A0A0A;
+  border: 2px solid white;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.planner{
+  width: 800px;
+  height: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.component-div{
+  width: 100px;
+  height: 120px;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  font-size: 1rem;
+  color: white;
+  margin: 10px;
+}
+.component-div p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.component-div button{
+  background-color: #0A0A0A;
+  color: white;
+  border: 2px solid white;
+}
+.cert-seal{
+  background-image: url("./src/assets/images/cert-seal-purple.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.component{
+  background-image: url("./src/assets/images/component-purple.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.chip{
+  background-image: url("./src/assets/images/skill-chip-purple.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.h-d-d{
+  background-image: url("./src/assets/images/higher-dimensional-data-purple.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.inv-log{
+  background-image: url("./src/assets/images/inv-log-purple.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.energy-module{
+  background-image: url("./src/assets/images/energy-module-purple.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.plating-agent{
+  background-image: url("./src/assets/images/plating-agent-purple.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.denny{
+  background-image: url("./src/assets/images/denny.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.disk{
+  background-image: url("./src/assets/images/disk.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.align-rewards{
+  display: flex;
+  justify-content: space-evenly;
+}
+.reward{
+  color: white;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-left: 5px;
+}
+.reward img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.reward div{
+  display: flex;
+  height: 50px;
+
+}
+.about{
+  color: white;
+  height: 530px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.links{
+  border: 2px solid white;
+  width: 60px;
+  height: 40px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+.links:hover{
+  border: 4px solid white;
+}
+a:link { 
+  text-decoration: none;
+  color: white;
+} 
+a:visited { 
+  text-decoration: none;
+  color: white;
+} 
+a:hover { 
+  text-decoration: none;
+  color: white; 
+} 
+a:active { 
+  text-decoration: none;
+  color: white;
+}
