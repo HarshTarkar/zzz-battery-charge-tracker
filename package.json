@@ -1,8 +1,8 @@
 {
   "name": "zzz-battery-charge-tracker",
   "private": true,
-  "version": "0.0.0",
   "homepage": "https://HarshTarkar.github.io/zzz-battery-charge-tracker",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
