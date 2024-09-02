@@ -36,7 +36,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/zzz-battery-charge-tracker/">
       <div>
           <Header />
           <div className='base'>
