@@ -1,5 +1,4 @@
 {
-  "homepage": "http://HarshTarkar.github.io/zzz-battery-charge-tracker",
   "name": "zzz-battery-charge-tracker",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +8,6 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
