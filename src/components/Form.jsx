@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import Countdown from 'react-countdown';
+import battery from "/images/battery-icon.png";
 
 function Form(props){
 
@@ -36,7 +36,7 @@ function Form(props){
                     <div className="current-container">
                         <p>Your current charge:</p>
                         <div>
-                            <img className="battery-icon" src={import.meta.env.BASE_URL + "/images/battery-icon.png"} alt="battery" />
+                            <img className="battery-icon" src={battery} alt="battery" />
                             {charge}/240
                         </div>
 
@@ -44,7 +44,7 @@ function Form(props){
                     <div className="current-container">
                         <p>Your required charge:</p>
                         <div style={{ color: charge < props.totalCharge?"#ff0000":"#00ff00"}} >
-                            <img className="battery-icon" src={import.meta.env.BASE_URL + "/images/battery-icon.png"} alt="battery" />
+                            <img className="battery-icon" src={battery} alt="battery" />
                             {props.totalCharge}/240
                         </div>
                     </div>

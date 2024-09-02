@@ -1,10 +1,11 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import logo from "/images/logo.png";
 
 function Header(){
     return (
         <header>
-            <img src="./src/assets/images/logo.png"></img>
+            <img src={logo}></img>
             <div className="vertical-line"></div>
             <h1>BATTERY CHARGE TRACKER</h1>
             <Link to="/about">
