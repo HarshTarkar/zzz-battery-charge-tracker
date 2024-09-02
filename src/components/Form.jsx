@@ -36,7 +36,7 @@ function Form(props){
                     <div className="current-container">
                         <p>Your current charge:</p>
                         <div>
-                            <img className="battery-icon" src={import.meta.env.BASE_URL + "/src/assets/images/battery-icon.png"} alt="battery" />
+                            <img className="battery-icon" src={import.meta.env.BASE_URL + "/images/battery-icon.png"} alt="battery" />
                             {charge}/240
                         </div>
 
@@ -44,7 +44,7 @@ function Form(props){
                     <div className="current-container">
                         <p>Your required charge:</p>
                         <div style={{ color: charge < props.totalCharge?"#ff0000":"#00ff00"}} >
-                            <img className="battery-icon" src={import.meta.env.BASE_URL + "/src/assets/images/battery-icon.png"} alt="battery" />
+                            <img className="battery-icon" src={import.meta.env.BASE_URL + "/images/battery-icon.png"} alt="battery" />
                             {props.totalCharge}/240
                         </div>
                     </div>
