@@ -4,7 +4,7 @@
   margin: 0px;
 }
 body{
-  background-image: url("./src/assets/images/background.png");
+  background-image: url("/src/assets/images/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -75,7 +75,7 @@ Footer{
 }
 .div-content{
   background-color: white;
-  background-image: url("./src/assets/images/div-bg.png");
+  background-image: url("/src/assets/images/div-bg.png");
   background-size: cover;
   background-color: black;
   height: 100%;
@@ -188,47 +188,47 @@ form button{
   border: 2px solid white;
 }
 .cert-seal{
-  background-image: url("./src/assets/images/cert-seal-purple.png");
+  background-image: url("/src/assets/images/cert-seal-purple.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .component{
-  background-image: url("./src/assets/images/component-purple.png");
+  background-image: url("/src/assets/images/component-purple.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .chip{
-  background-image: url("./src/assets/images/skill-chip-purple.png");
+  background-image: url("/src/assets/images/skill-chip-purple.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .h-d-d{
-  background-image: url("./src/assets/images/higher-dimensional-data-purple.png");
+  background-image: url("/src/assets/images/higher-dimensional-data-purple.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .inv-log{
-  background-image: url("./src/assets/images/inv-log-purple.png");
+  background-image: url("/src/assets/images/inv-log-purple.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .energy-module{
-  background-image: url("./src/assets/images/energy-module-purple.png");
+  background-image: url("/src/assets/images/energy-module-purple.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .plating-agent{
-  background-image: url("./src/assets/images/plating-agent-purple.png");
+  background-image: url("/src/assets/images/plating-agent-purple.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .denny{
-  background-image: url("./src/assets/images/denny.png");
+  background-image: url("/src/assets/images/denny.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .disk{
-  background-image: url("./src/assets/images/disk.png");
+  background-image: url("/src/assets/images/disk.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
