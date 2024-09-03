@@ -189,6 +189,7 @@ form button{
   border: 2px solid white;
   height: 40px;
   width: 40px;
+  font-size: 2rem;
 }
 .cert-seal{
   background-image: url("./images/cert-seal-purple.png");
