@@ -169,7 +169,7 @@ form button{
 }
 .component-div{
   width: 100px;
-  height: 120px;
+  height: 140px;
   display: flex;
   align-items:flex-end;
   justify-content: center;
@@ -181,11 +181,14 @@ form button{
 .component-div p{
   margin-left: 10px;
   margin-right: 10px;
+  font-size: 2rem;
 }
 .component-div button{
   background-color: #0A0A0A;
   color: white;
   border: 2px solid white;
+  height: 40px;
+  width: 40px;
 }
 .cert-seal{
   background-image: url("./images/cert-seal-purple.png");
